@@ -7,7 +7,7 @@ class Chitter < Sinatra::Base
   end
 
   get "/" do
-    "My first peep"
+    erb :index
   end
 
   run! if app_file == $0
