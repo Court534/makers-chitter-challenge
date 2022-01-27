@@ -5,6 +5,7 @@ ruby '3.0.2'
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'webrick'
+gem 'rspec-sinatra'
 
 group :test do
   gem 'rspec'
